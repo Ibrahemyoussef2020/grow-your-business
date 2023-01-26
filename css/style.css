@@ -381,9 +381,13 @@ main img {
         max-width:100%;
     }
     .plan-header-container > div {
-        max-width:80%;
-        padding: 10px 1rem;
+        max-width:100%;
+        padding: 10px 5px;
         flex: 1;
+    }
+    .get-plan h2 {
+        line-height: 2rem !important;
+        font-size:var(--second-font)
     }
   } 
 
@@ -431,10 +435,15 @@ main img {
         left: 120px;
     }
 
+    .under-in-deepth > section{
+        max-width:90%;
+        margin-bottom:1rem;
+    }
+
     .plan-header-container > div {
-        max-width: 100%;
         padding: 10px; 
     }
+    
   }
 
 
