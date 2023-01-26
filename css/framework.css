@@ -1,0 +1,134 @@
+:root{
+
+    --first-font:3.2rem;
+    --second-font:2.3rem;
+
+    --dm-font:'Open Sans', sans-serif;
+    --mui-font:'tahma';
+
+    --black-color:#19191B;
+}
+
+.body-content{
+    height: 100%;
+    min-height: 100vh;
+    width: 90%;
+    padding-top:10px;
+    margin: 0 auto;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+.body-content > *:not(header , .nav-button){
+    margin-top:4rem;
+}
+
+.text-section{
+    flex: 1;
+    max-width: 350px;
+}
+
+.under-section{
+    max-width: 350px;
+    min-width: 250px;
+}
+
+main .under-section{
+    max-width: 550px;
+}
+
+
+
+
+/* display flex */
+
+.flex {
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content:space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.column{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+/* get-started */
+
+.get-started{
+    width:150px;
+    height:45px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius:10px;
+    color: #fff;
+    
+}
+/* mr pd bor */
+
+.text-padding{
+    padding-bottom: 2rem;
+}
+
+/* fonts */
+
+.dm-font{
+    font-family: var(--dm-font);
+}
+.mui-font{
+    font-family: var(--mui-font);
+}
+.bold{
+    font-weight: 700;
+}
+/* coolor */
+
+.black-color{
+    color:var(--black-color)
+}
+
+.orange{
+    background: #FF7143 !important;
+}
+
+.dark-gray{
+    color:#696871
+}
+
+.light-gray{
+    background: #F8F8F8;
+}
+.link{
+    color:#5454D4;
+    font-weight: bold;
+    margin-top:5px;
+    background: transparent;
+}
+/* elements */
+
+p{
+    line-height:25px;
+    color:#696871;
+    font-size: 15px;
+}
+
+button{
+    cursor: pointer;
+}
+
