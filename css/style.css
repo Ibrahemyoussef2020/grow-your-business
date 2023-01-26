@@ -90,6 +90,7 @@ header .get-started-container{
     display: none;
     z-index: 1;
     cursor: pointer;
+    background: #fff;
 }
 
 /******************** Main *********************/
@@ -360,6 +361,14 @@ main img {
     :root{
         --first-font:2.7rem;
         --second-font:1.8rem;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    .logo-text{
+        font-size: var(--second-font);
     }
     .nav-button{
         display: block;
