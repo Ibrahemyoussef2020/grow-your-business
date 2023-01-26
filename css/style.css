@@ -394,14 +394,9 @@ main img {
         --first-font:2.1rem;
         --second-font:1.1rem;
     }
-    .body-content{
-        
-    }
     header{
         flex-wrap: wrap;
     }
-
-    
 
     header .get-started{
         margin-top:1.1rem;
@@ -409,6 +404,10 @@ main img {
     header .get-started-container{
         text-align: start;
         max-width:100%;
+    }
+
+    .grow-text h2{
+        line-height: 2.5rem !important;
     }
 
     .grow-man{
