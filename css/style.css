@@ -30,7 +30,7 @@ header > *{
     /* logo */
 .logo{
     gap: .5rem;
-    margin-right: 1rem;
+    margin: 0 1rem 1.5rem;
     max-width:300px;
 }    
 .logo-images{
@@ -86,7 +86,6 @@ header .get-started-container{
     right: 10px;
     letter-spacing:3px;
     font-weight:900;
-    transform:rotate(90deg);
     display: none;
     z-index: 1;
     cursor: pointer;
@@ -392,7 +391,7 @@ main img {
   @media only screen and (max-width:420px) {
     :root{
         --first-font:2.1rem;
-        --second-font:1.1rem;
+        --second-font:1.5rem;
     }
     header{
         flex-wrap: wrap;
